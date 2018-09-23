@@ -1,4 +1,4 @@
-package com.automationpractice.cucumberfromscratch.utilities;
+package ustatus.utilities;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package com.automationpractice.cucumberfromscratch.utilities;
+package ustatus.utilities;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,7 +23,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.automationpractice.cucumberfromscratch.utilities.Driver;
+import ustatus.utilities.Driver;
 
 public class BrowserUtils {
 	/*

@@ -1,4 +1,4 @@
-package com.automationpractice.cucumberfromscratch.runners;
+package ustatus.runners;
 
 import org.junit.runner.RunWith;
 
@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 			},
 			tags="@status",
 			features= "src/test/resources/com/status/features",
-			glue= "com/automationpractice/cucumberfromscratch/step_definitions"
+			glue= "ustatus.step_definitions"
 			
 //			,dryRun =true
 			

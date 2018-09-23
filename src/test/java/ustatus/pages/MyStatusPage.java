@@ -1,4 +1,4 @@
-package com.automationpractice.cucumberfromscratch.pages;
+package ustatus.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

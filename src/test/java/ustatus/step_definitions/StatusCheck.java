@@ -1,11 +1,11 @@
-package com.automationpractice.cucumberfromscratch.step_definitions;
+package ustatus.step_definitions;
 
 import static org.junit.Assert.assertTrue;
 
-import com.automationpractice.cucumberfromscratch.pages.CaseStatusCheckPage;
-import com.automationpractice.cucumberfromscratch.pages.MyStatusPage;
-import com.automationpractice.cucumberfromscratch.utilities.ConfigurationReader;
-import com.automationpractice.cucumberfromscratch.utilities.Driver;
+import ustatus.pages.CaseStatusCheckPage;
+import ustatus.pages.MyStatusPage;
+import ustatus.utilities.ConfigurationReader;
+import ustatus.utilities.Driver;
 
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
