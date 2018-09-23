@@ -78,7 +78,8 @@
 					</includes>
 				</configuration>
 			</plugin>
-			<plugin>
+			
+			<!-- <plugin>
 				<groupId>net.masterthought</groupId>
 				<artifactId>maven-cucumber-reporting</artifactId>
 				<version>3.15.0</version>
@@ -91,16 +92,17 @@
 						</goals>
 						<configuration>
 							<projectname>TestProject</projectname>
-							<!-- path to the report that will be generated -->
+							path to the report that will be generated
 							<outputdirectory>${project.build.directory}/cucumber-html-reports</outputdirectory>
-							<!-- path to the json file that will be used to genetrate report -->
-							<!-- it has to match the one on the cukesrunner -->
+							path to the json file that will be used to genetrate report
+							it has to match the one on the cukesrunner
 							<cucumberoutput>${project.build.directory}/target/cucumber.json</cucumberoutput>
 							<enableflashcharts></enableflashcharts>
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin> -->
+			
 		</plugins>
 	</build>
 </project>
